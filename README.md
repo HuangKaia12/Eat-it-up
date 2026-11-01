@@ -53,4 +53,5 @@ JavaScript syntax checks, simulated interaction tests and audio-file checks pass
 
 OpenAI Codex assisted with the HTML, CSS and JavaScript, SVG food illustrations, procedural audio synthesis, code-level checks and documentation. I supplied the idea and requirements, reviewed the outputs, directed revisions and gathered user feedback.
 
-The supplied Eat It Up requirements document informed the initial scope. No third-party code libraries, downloaded food images, sampled audio or external datasets were used. No additional borrowed course code has been identified in the development record.
+No third-party code libraries, downloaded food images, sampled audio or external datasets were used. No additional borrowed course code has been identified in the development record.
+

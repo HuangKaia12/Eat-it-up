@@ -60,6 +60,7 @@ A useful next step would be to try the project during an actual wait and find ou
 
 ## Credits and Development History
 
-OpenAI Codex assisted with code, SVG artwork, procedural sound, checks and documentation. The supplied Eat It Up requirements document informed the initial scope. No third-party libraries, downloaded food images, sampled audio or external datasets were used. No additional borrowed course code has been identified in the development record.
+OpenAI Codex assisted with code, SVG artwork, procedural sound, checks and documentation. No third-party libraries, downloaded food images, sampled audio or external datasets were used. No additional borrowed course code has been identified in the development record.
 
 The conversation records the sequence of decisions and revisions. Git commits were not created during the earlier iterations, so this account is retrospective rather than a contemporaneous Git history. The first repository commit will record the current project; subsequent real changes can then be recorded in separate commits.
+
