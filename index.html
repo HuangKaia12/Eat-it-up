@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Eat It Up</title>
+  <link rel="stylesheet" href="style.css">
+  <script defer src="script.js"></script>
+</head>
+<body>
+  <main>
+    <header><h1>Eat It Up<span aria-hidden="true">.</span></h1></header>
+    <section class="card" aria-label="Eat your food">
+      <div class="chooser"><label for="food-select">Food</label><select id="food-select"></select></div>
+      <h2 id="food-name">Cookie</h2>
+      <div class="stage">
+        <svg id="food-svg" viewBox="0 0 100 100" role="img" aria-labelledby="food-title">
+          <title id="food-title">Cookie</title>
+          <defs><mask id="bite-mask" maskUnits="userSpaceOnUse" x="0" y="0" width="100" height="100" style="mask-type:luminance">
+            <rect width="100" height="100" fill="white"/>
+            <g id="bite-one" fill="black" visibility="hidden" transform="rotate(-35 50 50)"><path d="M65 -10H110V110H65V90Q54 80 65 70Q54 60 65 50Q54 40 65 30Q54 20 65 10Z"/></g>
+            <g id="bite-two" fill="black" visibility="hidden" transform="translate(0 2) rotate(22 50 50)"><path d="M35 -10H-10V110H35V90Q46 80 35 70Q46 60 35 50Q46 40 35 30Q46 20 35 10Z"/></g>
+          </mask></defs>
+          <image id="food-image" x="0" y="0" width="100" height="100" mask="url(#bite-mask)"/>
+        </svg>
+        <p id="stage-note" hidden>All gone.</p>
+      </div>
+      <p id="progress" role="status" aria-live="polite" aria-atomic="true">Loading…</p>
+      <div class="actions"><button id="eat" type="button" disabled>Eat</button><button id="reset" type="button">Reset</button></div>
+      <p id="eaten-count" role="status" aria-live="polite" aria-atomic="true">Eaten: 0</p>
+    </section>
+  </main>
+</body>
+</html>
