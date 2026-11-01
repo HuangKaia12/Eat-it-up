@@ -26,7 +26,7 @@ The first user tried the project and felt that it lacked a sense of purpose. The
 
 I responded by asking Codex to add the Eaten counter. It increases only when the third bite completes a food. Reset and food selection keep the accumulated total, while refreshing clears it. This was a small change that directly addressed the request without adding levels, a timer or a complex scoring system.
 
-After this change, I invited another person to try the revised version. She found it interesting to express waiting time humorously through the number of cookies eaten. Her response supported the playful waiting-counter direction. This was feedback from a second person, not a retest with the first user.
+After this change, I invited another person to try the revised version. She found it interesting to express waiting time humorously through the number of cookies eaten. Her response supported the playful waiting-counter direction.
 
 These accounts summarise the feedback I reported rather than reproduce exact quotations. They describe two informal trials and are not intended as a broad claim about all users.
 
@@ -48,19 +48,16 @@ One suggestion I kept was the shared SVG mask. It offered a simple way to use th
 
 Codex ran JavaScript syntax checks and seven groups of simulated interaction tests covering bite progression, reset, switching, loading and errors, stale image requests, invalid configuration, initial state and completed-food counting. Additional checks covered audio triggering, handling playback errors without interrupting the interaction and WAV file structure. These checks passed.
 
-These technical checks used a simulated environment. The AI browser tool blocked local-file preview, so they should not be read as a full visual or cross-browser test. The user trials above provide separate feedback on the experience and its purpose.
-
 ## Reflection
 
 The project developed from a simple way to pass time into a playful way to express waiting. The first user's request gave the repeated action a visible total, and the second user's response supported the humour of the idea.
 
 The revisions show how small details shaped the experience: larger, asymmetric bites made the visual action more pronounced, while the sound needed several changes to move away from a muffled impact. AI supplied the implementation, but reviewing its outputs and giving specific feedback remained an important part of my role.
 
-A useful next step would be to try the project during an actual wait and find out whether the counter remains engaging beyond a short demonstration.
+## Initial Version
 
-## Credits and Development History
+The initial version is saved in the initial version folder as a record of the project's development. I did not upload each stage to GitHub during development, so this version is included to show the earlier design and allow comparison with the current project.
 
-OpenAI Codex assisted with code, SVG artwork, procedural sound, checks and documentation. No third-party libraries, downloaded food images, sampled audio or external datasets were used. No additional borrowed course code has been identified in the development record.
+## Credits
 
-The conversation records the sequence of decisions and revisions. Git commits were not created during the earlier iterations, so this account is retrospective rather than a contemporaneous Git history. The first repository commit will record the current project; subsequent real changes can then be recorded in separate commits.
-
+OpenAI Codex assisted with code, SVG artwork, procedural sound, checks and documentation. No third-party libraries, downloaded food images, sampled audio or external datasets were used.
